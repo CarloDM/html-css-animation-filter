@@ -98,3 +98,30 @@ border-radius: 100%;
   }
   
 }
+
+.ex-12-top-white,
+.ex-12-bottom-white{
+  animation: rotazione3 2s infinite linear;
+
+}
+
+@keyframes rotazione3 {
+
+  0%{
+    left: 10%;
+  }
+  25%{
+    left: 20%;
+  }
+  50%{
+    left: 30%;
+  }
+  75%{
+    left: 20%;
+  }
+  100%{
+    left: 10%;
+  }
+  
+}
+
