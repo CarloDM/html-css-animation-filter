@@ -50,3 +50,10 @@ border-radius: 100%;
 .ex-7-img:hover{
   filter: invert(1) blur(5px);
 }
+
+.ex-8-img{
+  border-radius: 40px;
+  filter:contrast(10) sepia(1)
+  
+}
+
