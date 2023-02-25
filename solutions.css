@@ -66,8 +66,8 @@ border-radius: 100%;
 .ex-10-icon{
   /* animation-name: rotazione;
   transition: 1s;
-  animation-iteration-count: infinite; 
-  animation-timing-function: linear; */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;  */
   animation: rotazione 1s infinite linear;
   
 }
@@ -126,86 +126,78 @@ border-radius: 100%;
 }
 
 .ex-13-top-white{
-  animation: rotazione4 2s infinite  linear;
+  animation: rotazione4 3s infinite  linear;
 }
 
 @keyframes rotazione4 {
   
   0%{
     top: -20px;
-    left: 10%;
+    left: -2%;
+    width: 5px;
   }
 
-  16%{
+  37.4%{
     top: -20px;
     left: 100%;
+    width: 60px;
   }
 
-  40%{
+  50%{
     top: 64px;
     left: 100%;
+    width: 60px;
   }
 
-  60%{
+  87.4%{
     top: 64px;
-    left: 0%;
-  }
-
-  64%{
-    top: 64px;
-    left: -10%;
-  }
-
-  88%{
-    top: -20px;
-    left: -10%;
+    left: -2%;
+    width: 5px;
   }
 
   100%{
     top: -20px;
-    left: 10%;
-  }
-  
+    left: -2%;
+    width: 5px;
+  }  
+
 }
 .ex-13-bottom-white{
-  animation: rotazione5 2s infinite  linear;
+  animation: rotazione5 3s infinite  linear;
 }
 
 @keyframes rotazione5 {
   
   0%{
-    bottom: -10px;
-    right: 0%;
+    bottom: -20px;
+    right: -31%;
+    width:60px;
   }
-
-  16%{
-    bottom: -10px;
-    right: 80%;
+  
+  37.4%{
+    bottom: -20px;
+    right: 99%;
+    width:5px;
   }
-
-  40%{
+  
+  50%{
     bottom: 64px;
-    right: 80%;
+    right: 99%;
+    width:5px;
   }
-
-  60%{
+  
+  87.4%{
     bottom: 64px;
-    right: -30%;
-  }
-
-  64%{
-    bottom: 64px;
-    right: -30%;
-  }
-
-  88%{
-    bottom: -10px;
-    right: -30%;
+    right: -31%;
+    width: 60px;
   }
 
   100%{
-    bottom: -10px;
-    right: 0%;
+    bottom: -20px;
+    right: -31%;
+    width:60px;
   }
+
+
   
 }
